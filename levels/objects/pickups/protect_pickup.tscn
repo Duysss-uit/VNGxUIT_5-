@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bjmbrkek30uey"]
+
+[ext_resource type="PackedScene" uid="uid://bk8e5i24j6b02" path="res://levels/objects/pickups/powerup_pickup.tscn" id="1_yjafm"]
+[ext_resource type="Texture2D" uid="uid://dhb1qtkyk7it4" path="res://assets/items/shield.png" id="2_6jfpw"]
+[ext_resource type="Resource" uid="uid://eeywn7ul6i20" path="res://data/powerup/protect.tres" id="2_tc58i"]
+
+[node name="ProtectPickup" unique_id=1094896312 instance=ExtResource("1_yjafm")]
+powerup = ExtResource("2_tc58i")
+
+[node name="Sprite" parent="." index="0" unique_id=676299741]
+texture = ExtResource("2_6jfpw")

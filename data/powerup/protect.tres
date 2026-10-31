@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PowerupDecoratorData" format=3 uid="uid://eeywn7ul6i20"]
+
+[ext_resource type="Script" uid="uid://rhplk2dtlxp3" path="res://scenes/powerups/protect_decorator.gd" id="1_lsoc5"]
+[ext_resource type="Script" uid="uid://bslulkxbp70v5" path="res://scripts/powerup/powerup_decorator_data.gd" id="2_jnj8f"]
+
+[resource]
+script = ExtResource("2_jnj8f")
+id = "protect"
+display_name = "Bảo "
+decorator_script = ExtResource("1_lsoc5")
+duration = -1.0
+color_modulate = Color(0.007843138, 0.007843138, 0.007843138, 1)
+metadata/_custom_type_script = "uid://bslulkxbp70v5"

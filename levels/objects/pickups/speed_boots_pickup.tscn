@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://fsub6xkxmjvm"]
+
+[ext_resource type="PackedScene" uid="uid://bk8e5i24j6b02" path="res://levels/objects/pickups/powerup_pickup.tscn" id="1_niuye"]
+[ext_resource type="Resource" uid="uid://dghmbehr1blam" path="res://data/powerup/speed_boots.tres" id="2_a4kaf"]
+[ext_resource type="Texture2D" uid="uid://chs185jxqgbqe" path="res://assets/items/speed_up.png" id="3_a4kaf"]
+
+[node name="SpeedBootsPickup" unique_id=1094896312 instance=ExtResource("1_niuye")]
+powerup = ExtResource("2_a4kaf")
+
+[node name="Sprite3D" parent="." index="0" unique_id=676299741]
+texture = ExtResource("3_a4kaf")

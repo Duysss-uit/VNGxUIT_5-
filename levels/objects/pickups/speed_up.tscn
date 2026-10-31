@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://v8kno7t6ge1k"]
+
+[ext_resource type="Script" uid="uid://b4upou4fiyp53" path="res://levels/objects/pickups/speed_up.gd" id="1_mp1tm"]
+[ext_resource type="Texture2D" uid="uid://chs185jxqgbqe" path="res://assets/items/speed_up.png" id="2_mp1tm"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_kpfm0"]
+radius = 0.6
+
+[node name="Speed up" type="Area3D" unique_id=1226427807]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("1_mp1tm")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=449472162]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
+shape = SubResource("SphereShape3D_kpfm0")
+
+[node name="Sprite" type="Sprite3D" parent="." unique_id=576354515]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3, 0)
+offset = Vector2(0, 16)
+pixel_size = 0.0625
+billboard = 1
+alpha_cut = 1
+texture_filter = 0
+texture = ExtResource("2_mp1tm")
